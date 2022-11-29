@@ -1,0 +1,35 @@
+git=language
+pindah directori //git config --global user.name "bagus setiawan"
+git config --global user.email "bagussetiawan0131@gmail.com"
+
+
+konfigurasi git terhubung vscode
+git config --global core.editor "code --wait"
+git config --global diff.tool "default-difftool"
+git config --global difftool.default-difftool.cmd "code --wait --diff $LOCAL $REMOTE"
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+
+Membuka vscode //code .
+
+agar dapat dipantau sistem git git init == digunakan untuk membuat repository di file lokal.
+
+melihat ada file baru di cmd (git status)
+cara mendaftarkan sistem txt (git add . //untuk medaftarkan semua) (git add file.txt)
+
+
+working direktori	file.txt merah
+staging index		git add
+repo			git commit -m (massage0)"commit"
+sudah masuk repositori
+
+membatalkan proses git restore --staged .
+
+melihatt log
+git log --oneline
+git reset ""
+git reset ada 3 soft dan hard
+soft gak semerta merta kehapus
+mix masuk kewarking direktori
+hard kehapus		 	git reset hard 8fc05d8
