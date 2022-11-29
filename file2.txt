@@ -1,3 +1,0 @@
-ini file2.txt
-update file
-hapus file 2
